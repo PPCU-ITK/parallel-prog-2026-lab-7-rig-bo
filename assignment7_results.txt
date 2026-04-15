@@ -26,6 +26,6 @@ kinetic energy: 7745.78
 (this one doesn't have collapse(2) in the kinetic loop because it increases the running time)
 I run it a second time: run time: 366189 microsecond
 
-assesment: in cpu with bigger Nx and Ny the run time became exponential bigger, while running it on gpu with smaller Nx and Ny the run time was bigger than in cpu, but with the increase of Nx and Ny the running time did not increase that much (way smaller than cpu).
+assesment: in cpu with bigger Nx and Ny the run time became exponential bigger, while running it on gpu with smaller Nx and Ny the run time was bigger than in cpu, but with the increase of Nx and Ny the running time did not increase that much (way smaller than cpu). Even if the kinetc energy is not correct, it is good for comparing  the two method.
 
 
