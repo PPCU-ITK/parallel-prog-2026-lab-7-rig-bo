@@ -1,0 +1,31 @@
+running with gpu
+(before every boundary condition I put a pragma line: #pragma omp target teams distribute parallel for)
+run time of the main loop: 808457 microsecond
+kinetic energy: 7745.78
+
+running with gpu
+(without the #pragma line before the boundary condition)
+run time: 644648
+kinetic energy: 7128.66
+
+running with gpu
+(I put a collapse(2) for the kinetic loop too (before it was just reduction))
+run time: 594425
+kinetic energy: 7128.66
+
+running on gpu
+(with: #pragma before the boundaries + collapse(2) in kinetic loop)
+run time: 689090 microsecond
+kinetic energy: 7745.78
+
+In the following exercises I decided to go with this because it has the korrekt kinetic energy value with the smaller running time.
+
+running on cpu
+run time: 401003 microsecond
+kinetic energy: 7745.78
+(this one doesn't have collapse(2) in the kinetic loop because it increases the running time)
+I run it a second time: run time: 366189 microsecond
+
+assesment: in cpu with bigger Nx and Ny the run time became exponential bigger, while running it on gpu with smaller Nx and Ny the run time was bigger than in cpu, but with the increase of Nx and Ny the running time did not increase that much (way smaller than cpu).
+
+

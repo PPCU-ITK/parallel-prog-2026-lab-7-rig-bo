@@ -1,0 +1,200 @@
+Nx, Ny = 200, 100
+
+Step 0 completed, total kinetic energy: 9825.76
+Step 50 completed, total kinetic energy: 9595.83
+Step 100 completed, total kinetic energy: 9419.26
+Step 150 completed, total kinetic energy: 9254.27
+Step 200 completed, total kinetic energy: 9096.12
+Step 250 completed, total kinetic energy: 8941.93
+Step 300 completed, total kinetic energy: 8789.82
+Step 350 completed, total kinetic energy: 8638.8
+Step 400 completed, total kinetic energy: 8488.7
+Step 450 completed, total kinetic energy: 8340.5
+Step 500 completed, total kinetic energy: 8200.49
+Step 550 completed, total kinetic energy: 8084
+Step 600 completed, total kinetic energy: 8004.93
+Step 650 completed, total kinetic energy: 7962.46
+Step 700 completed, total kinetic energy: 7943.53
+Step 750 completed, total kinetic energy: 7933.54
+Step 800 completed, total kinetic energy: 7923.31
+Step 850 completed, total kinetic energy: 7909.65
+Step 900 completed, total kinetic energy: 7892.89
+Step 950 completed, total kinetic energy: 7874.44
+Step 1000 completed, total kinetic energy: 7855.53
+Step 1050 completed, total kinetic energy: 7836.97
+Step 1100 completed, total kinetic energy: 7819.23
+Step 1150 completed, total kinetic energy: 7802.63
+Step 1200 completed, total kinetic energy: 7787.42
+Step 1250 completed, total kinetic energy: 7773.83
+Step 1300 completed, total kinetic energy: 7762.06
+Step 1350 completed, total kinetic energy: 7752.25
+Step 1400 completed, total kinetic energy: 7744.47
+Step 1450 completed, total kinetic energy: 7738.68
+Step 1500 completed, total kinetic energy: 7734.74
+Step 1550 completed, total kinetic energy: 7732.46
+Step 1600 completed, total kinetic energy: 7731.59
+Step 1650 completed, total kinetic energy: 7731.88
+Step 1700 completed, total kinetic energy: 7733.08
+Step 1750 completed, total kinetic energy: 7734.95
+Step 1800 completed, total kinetic energy: 7737.31
+Step 1850 completed, total kinetic energy: 7739.97
+Step 1900 completed, total kinetic energy: 7742.83
+Step 1950 completed, total kinetic energy: 7745.78
+main loop took 361009 microseconds
+
+Boundary conditions executed:  2000, 2000, 2000, 2000 times
+Total boundary condition time: 346, 1032, 3822, 2971 microseconds
+
+Update loop executed:  2000 times
+Total update time:     290809 microseconds
+
+Copy loop executed:    2000 times
+Total copy time:       40626 microseconds
+
+Kinetic loop executed: 2000 times
+Total kinetic time:    20504 microseconds
+
+Estimated Achieved Bandwidth:
+Update loop:  22.0075 GB/s
+Copy loop:    63.0125 GB/s
+Kinetic loop: 46.8197 GB/s
+
+Name	Count	Time(s)	GB/s
+update	2000	0.290809	22.0075
+copy	2000	0.0406269	63.0125
+kinetic	2000	0.0205042	46.8197
+
+
+Nx, Ny * 4
+
+Step 0 completed, total kinetic energy: 157424
+Step 50 completed, total kinetic energy: 156619
+Step 100 completed, total kinetic energy: 156039
+Step 150 completed, total kinetic energy: 155499
+Step 200 completed, total kinetic energy: 154984
+Step 250 completed, total kinetic energy: 154489
+Step 300 completed, total kinetic energy: 154010
+Step 350 completed, total kinetic energy: 153546
+Step 400 completed, total kinetic energy: 153093
+Step 450 completed, total kinetic energy: 152650
+Step 500 completed, total kinetic energy: 152215
+Step 550 completed, total kinetic energy: 151786
+Step 600 completed, total kinetic energy: 151362
+Step 650 completed, total kinetic energy: 150943
+Step 700 completed, total kinetic energy: 150526
+Step 750 completed, total kinetic energy: 150113
+Step 800 completed, total kinetic energy: 149703
+Step 850 completed, total kinetic energy: 149295
+Step 900 completed, total kinetic energy: 148889
+Step 950 completed, total kinetic energy: 148485
+Step 1000 completed, total kinetic energy: 148083
+Step 1050 completed, total kinetic energy: 147682
+Step 1100 completed, total kinetic energy: 147283
+Step 1150 completed, total kinetic energy: 146884
+Step 1200 completed, total kinetic energy: 146487
+Step 1250 completed, total kinetic energy: 146089
+Step 1300 completed, total kinetic energy: 145693
+Step 1350 completed, total kinetic energy: 145296
+Step 1400 completed, total kinetic energy: 144900
+Step 1450 completed, total kinetic energy: 144504
+Step 1500 completed, total kinetic energy: 144109
+Step 1550 completed, total kinetic energy: 143713
+Step 1600 completed, total kinetic energy: 143317
+Step 1650 completed, total kinetic energy: 142922
+Step 1700 completed, total kinetic energy: 142526
+Step 1750 completed, total kinetic energy: 142131
+Step 1800 completed, total kinetic energy: 141736
+Step 1850 completed, total kinetic energy: 141342
+Step 1900 completed, total kinetic energy: 140949
+Step 1950 completed, total kinetic energy: 140558
+main loop took 4300269 microseconds
+
+Boundary conditions executed:  2000, 2000, 2000, 2000 times
+Total boundary condition time: 667, 1930, 12007, 9012 microseconds
+
+Update loop executed:  2000 times
+Total update time:     3678600 microseconds
+
+Copy loop executed:    2000 times
+Total copy time:       351736 microseconds
+
+Kinetic loop executed: 2000 times
+Total kinetic time:    245415 microseconds
+
+Estimated Achieved Bandwidth:
+Update loop:  27.8367 GB/s
+Copy loop:    116.451 GB/s
+Kinetic loop: 62.5878 GB/s
+
+Name	Count	Time(s)	GB/s
+update	2000	3.6786	27.8367
+copy	2000	0.351737	116.451
+kinetic	2000	0.245415	62.5878
+
+
+Nx, Ny * 8
+
+Step 0 completed, total kinetic energy: 629818
+Step 50 completed, total kinetic energy: 628248
+Step 100 completed, total kinetic energy: 627141
+Step 150 completed, total kinetic energy: 626111
+Step 200 completed, total kinetic energy: 625122
+Step 250 completed, total kinetic energy: 624165
+Step 300 completed, total kinetic energy: 623234
+Step 350 completed, total kinetic energy: 622325
+Step 400 completed, total kinetic energy: 621437
+Step 450 completed, total kinetic energy: 620568
+Step 500 completed, total kinetic energy: 619717
+Step 550 completed, total kinetic energy: 618882
+Step 600 completed, total kinetic energy: 618062
+Step 650 completed, total kinetic energy: 617256
+Step 700 completed, total kinetic energy: 616461
+Step 750 completed, total kinetic energy: 615677
+Step 800 completed, total kinetic energy: 614903
+Step 850 completed, total kinetic energy: 614137
+Step 900 completed, total kinetic energy: 613378
+Step 950 completed, total kinetic energy: 612626
+Step 1000 completed, total kinetic energy: 611880
+Step 1050 completed, total kinetic energy: 611138
+Step 1100 completed, total kinetic energy: 610402
+Step 1150 completed, total kinetic energy: 609669
+Step 1200 completed, total kinetic energy: 608941
+Step 1250 completed, total kinetic energy: 608216
+Step 1300 completed, total kinetic energy: 607494
+Step 1350 completed, total kinetic energy: 606776
+Step 1400 completed, total kinetic energy: 606060
+Step 1450 completed, total kinetic energy: 605347
+Step 1500 completed, total kinetic energy: 604637
+Step 1550 completed, total kinetic energy: 603930
+Step 1600 completed, total kinetic energy: 603225
+Step 1650 completed, total kinetic energy: 602522
+Step 1700 completed, total kinetic energy: 601821
+Step 1750 completed, total kinetic energy: 601123
+Step 1800 completed, total kinetic energy: 600426
+Step 1850 completed, total kinetic energy: 599732
+Step 1900 completed, total kinetic energy: 599039
+Step 1950 completed, total kinetic energy: 598349
+main loop took 25632840 microseconds
+
+Boundary conditions executed:  2000, 2000, 2000, 2000 times
+Total boundary condition time: 2777, 4982, 36101, 27297 microseconds
+
+Update loop executed:  2000 times
+Total update time:     18325536 microseconds
+
+Copy loop executed:    2000 times
+Total copy time:       5802012 microseconds
+
+Kinetic loop executed: 2000 times
+Total kinetic time:    1432025 microseconds
+
+Estimated Achieved Bandwidth:
+Update loop:  22.3513 GB/s
+Copy loop:    28.2385 GB/s
+Kinetic loop: 42.9043 GB/s
+
+Name	Count	Time(s)	GB/s
+update	2000	18.3255	22.3513
+copy	2000	5.80201	28.2385
+kinetic	2000	1.43203	42.9043
+
